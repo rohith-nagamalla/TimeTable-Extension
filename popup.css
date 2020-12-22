@@ -5,21 +5,24 @@ button{
     padding: 10px 10px 10px 10px;
 }
 table, th, td {
-    border: 1px solid whitesmoke;
+    border: 1px solid #ececec;
 }
 
 body{
     text-align: center;
-    background-color: #3b3e42;
-    color: cornsilk;
+    background-color: white;
+    color: black;
+    font-family: 'Heebo', sans-serif;
 }
 
 a{
-    color: #edd8d8;
+    color: white;
 }
 
 a:hover {
-    color: cornsilk;
+    font-weight: bold;
+    /* color: cornsilk; */
+    color: black;
 }
 
 a:link {
@@ -29,3 +32,18 @@ a:link {
 a:visited {
    text-decoration: none;
 }
+
+
+.AT{
+    background-color: #5bc0de;
+}
+
+.BT{
+    background-color: #f0ad4e;
+}
+.CT{
+    background-color: #5cb85c;
+}
+/* .DT{
+    background-color: #f4c20d;
+} */

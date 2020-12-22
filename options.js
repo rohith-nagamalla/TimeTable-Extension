@@ -50,4 +50,13 @@ $(function(){
             close()
         })
     })
+
+    $("#reset").click(function(){
+        chrome.storage.sync.set({"A":"","B":"","C":"","D":"","E":"","F":"","G":"","H":"","I":"","J":"",
+        "AL":"","BL":"","CL":"","DL":"","EL":"","FL":"","GL":"","HL":"","IL":"","JL":""
+        },function(){
+            alert("Time Table reseted")
+            location.reload();
+        })
+    })
 })

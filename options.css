@@ -23,7 +23,7 @@ section{
 
 header{
     text-align: center;
-    background-color: #3b3e42;
+    background-color: #e16428;
     padding:15px 15px;
     color: cornsilk;
     position: fixed;
@@ -75,6 +75,10 @@ header{
 
 .card-body{
     text-align: left;
+}
+
+.last-button{
+    margin : 3% 3% 0;
 }
 
 

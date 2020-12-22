@@ -1,0 +1,31 @@
+button{
+    margin-top: 5px;
+}
+#Table{
+    padding: 10px 10px 10px 10px;
+}
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+body{
+    text-align: center;
+    background-color: #3b3e42;
+    color: cornsilk;
+}
+
+a{
+    color: #edd8d8;
+}
+
+a:hover {
+    color: cornsilk;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+   text-decoration: none;
+}
